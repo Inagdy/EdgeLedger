@@ -11,5 +11,5 @@
     //send email
     mail($admin_email, "New Form Submission", $message . ' - ' . $phone, "From:" . $email);
     
-    header('Location: https://inagdy.github.io/EdgeLedger/success.html');
+    header('Location: /success.html');
   }
